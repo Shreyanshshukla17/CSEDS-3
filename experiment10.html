@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, iniQal-scale=1.0">
+ <Qtle>Experiment 10 - Responsive E-commerce Navbar</Qtle>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: Arial, sans-serif;
+ background-color: white;
+ }
+ .navbar {
+ background-color: #333;
+ color: white;
+ padding: 12px 0;
+ }
+ .nav-container {
+ display: flex;
+ jusQfy-content: space-between;
+ align-items: center;
+ padding: 0 20px;
+ }
+ .logo {
+ font-size: 18px;
+ font-weight: bold;
+ color: white;
+ }
+ .nav-menu {
+ display: flex;
+ list-style: none;
+ gap: 40px;
+ }
+ .nav-menu a {
+ color: white;
+ text-decoraQon: none;
+ font-size: 14px;
+ }
+ .nav-acQons {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ }
+ .cart-btn, .login-btn {
+ color: white;
+ text-decoraQon: none;
+ font-size: 14px;
+ }
+ .main-content {
+ padding: 20px;
+ background-color: #ffffff;
+ min-height: 400px;
+ }
+ .main-content h1 {
+ font-size: 24px;
+ color: #333;
+ margin-boKom: 10px;
+ }
+ .main-content p {
+ font-size: 14px;
+ color: #666;
+ }
+ @media (max-width: 768px) {
+ .nav-menu {
+ display: none;
+ }
+ }
+ .signature {
+ text-align: center;
+ font-size: 10px;
+ color: #888;
+ }
+ </style>
+</head>
+<body>
+ <div class="navbar">
+ <div class="nav-container">
+ <div class="logo">ShopEase</div>
+ <ul class="nav-menu">
+ <li><a href="#home">Home</a></li>
+ <li><a href="#products">Products</a></li>
+ <li><a href="#categories">Categories</a></li>
+ <li><a href="#deals">Deals</a></li>
+ <li><a href="#contact">Contact</a></li>
+ </ul>
+ <div class="nav-acQons">
+ <a href="#cart" class="cart-btn">Cart 🛒</a>
+ <a href="#login" class="login-btn">Login</a>
+ </div>
+ </div>
+ </div>
+ <div class="main-content">
+ <h1>Welcome to ShopEase!</h1>
+ <p>Your one-stop desQnaQon for all shopping needs.</p>
+ </div>
+ <div class="signature">
+ Made by: Shreyansh Shukla <br> Admission Number: 2025B15410191
+ </div>
+</body>
+</html>

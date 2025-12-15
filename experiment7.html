@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, iniQal-scale=1.0">
+ <Qtle>Experiment 8 - Student Profile Card using Flexbox</Qtle>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f0f0f0;
+ min-height: 100vh;
+ display: flex;
+ jusQfy-content: center;
+ align-items: center;
+ }
+ 
+ .container {
+ display: flex;
+ jusQfy-content: center;
+ align-items: center;
+ gap: 20px;
+ padding: 20px;
+ }
+ 
+ .profile-card {
+ background: white;
+ border: 1px solid #ddd;
+ border-radius: 10px;
+ padding: 20px;
+ text-align: center;
+ width: 180px;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+ }
+ 
+ .profile-image {
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ background: #007bff;
+ margin: 0 auto 15px;
+ display: flex;
+ align-items: center;
+ jusQfy-content: center;
+ color: white;
+ font-size: 18px;
+ font-weight: bold;
+ }
+ 
+ .profile-name {
+ font-size: 16px;
+ font-weight: bold;
+ color: #333;
+ margin-boKom: 10px;
+ }
+ 
+ .profile-details {
+ color: #666;
+ font-size: 12px;
+ line-height: 1.4;
+ }
+ 
+ .profile-details div {
+ margin-boKom: 3px;
+ }
+ 
+ .credit {
+ posiQon: fixed;
+ boKom: 10px;
+ right: 10px;
+ font-size: 10px;
+ color: #888;
+ background: rgba(255,255,255,0.8);
+ padding: 3px 8px;
+ border-radius: 10px;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <div class="profile-card">
+ <div class="profile-image">JK</div>
+ <div class="profile-name">Jeet Kumar</div>
+ <div class="profile-details">
+ <div>B.Tech CSE</div>
+ <div>2nd Year</div>
+ <div>Roll No: 101</div>
+ </div>
+ </div>
+ 
+ <div class="profile-card">
+ <div class="profile-image">AR</div>
+ <div class="profile-name">Asha Rani</div>
+ <div class="profile-details">
+ <div>B.Tech IT</div>
+ <div>3rd Year</div>
+ <div>Roll No: 102</div>
+ </div>
+ </div>
+ 
+ <div class="profile-card">
+ <div class="profile-image">RK</div>
+ <div class="profile-name">Rohit Kumar</div>
+ <div class="profile-details">
+ <div>B.Tech ECE</div>
+ <div>1st Year</div>
+ <div>Roll No: 103</div>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="credit">
+ Shreyansh Shukla | 2025B15410191
+ </div>
+</body>
+</html>
